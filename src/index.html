@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Evgeny Aleshin</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+
+    <body>
+     <div id="name"></div>
+    </body>
+
+    <script>
+        const info_div = document.getElementById("name");
+        const name_arr = ["E", "V", "G", "E", "N", "Y", "<br>", "A", "L", "E", "S", "H", "I", "N"];
+
+        let i = 0;
+        const delay = 100;
+
+        function typeName() {
+            if (i < name_arr.length) {
+                info_div.innerHTML += name_arr[i];
+            }
+            i++;
+            setTimeout(typeName, delay)
+        }
+        typeName();
+    </script>
+</html>

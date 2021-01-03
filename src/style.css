@@ -1,0 +1,15 @@
+#name {
+    display: flex;
+    font-size: 16vw;
+    height: 98.7vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#error {
+    display: flex;
+    font-size: 3vw;
+    height: 98.7vh;
+    align-items: center;
+    justify-content: center;
+}

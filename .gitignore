@@ -1,0 +1,4 @@
+.idea
+cdk.out
+node_modules
+environment.ts

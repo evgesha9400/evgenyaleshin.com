@@ -1,0 +1,27 @@
+{
+  "name": "evgenyaleshin.com",
+  "version": "1.0.0",
+  "description": "Infrastructure for an HTTPS static site using S3 and CloudFront",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "author": "Evgeny Aleshin",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^10.17.0",
+    "typescript": "3.8"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-certificatemanager": "*",
+    "@aws-cdk/aws-cloudfront": "*",
+    "@aws-cdk/aws-iam": "*",
+    "@aws-cdk/aws-route53": "*",
+    "@aws-cdk/aws-route53-targets": "*",
+    "@aws-cdk/aws-s3": "*",
+    "@aws-cdk/aws-s3-deployment": "*",
+    "@aws-cdk/core": "*",
+    "aws-cdk": "*"
+  }
+}
